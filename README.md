@@ -95,39 +95,6 @@ Input validation to ensure data integrity.
 XSS and CSRF protection to prevent attacks.
 Rate limiting to prevent abuse.
 
----
-
-## **📄 API Documentation**
- Events
-Create Event
-  POST /api/events
-
- Get All Events
-  GET /api/events
-
- Delete Event
-  DELETE /api/events/:id
-
- Messages
-  Create Message
-   POST /api/messages
-
- Get All Messages
-  GET /api/messages
-
- Delete Message
-  DELETE /api/messages/:id
-
- Gallery
-  Add Image to Gallery
-   POST /api/gallery
-
- Get Gallery Images
-  GET /api/gallery
-
- Delete Gallery Image
-  DELETE /api/gallery/:id
-
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
