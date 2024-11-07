@@ -69,7 +69,7 @@ Email: admin@festive.finesse.events
 Password: FFE@admin2024
 Note: Make sure to change these credentials in a production environment.
 
-## 💡 Key Components
+## **💡 Key Components**
 Frontend
 Hero Section: Dynamic landing page with event booking modal.
 Services: Displays event planning services offered.
@@ -97,22 +97,7 @@ Rate limiting to prevent abuse.
 
 ---
 
-## 🛠️ Development Commands
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Run tests
-npm run test
-
----
-## 📄 API Documentation
+## **📄 API Documentation**
 Events
 Create Event
 POST /api/events
