@@ -62,10 +62,12 @@
 ├── types/             # TypeScript types
 └── utils/             # Helper functions
 
-## 🔑 Admin Access
+---
+
+## **🔑 Admin Access**
 Default admin credentials for demo purposes:
 
-Email: admin@festive.finesse.events
+Email: admin@festive.finesse.events \n
 Password: FFE@admin2024
 Note: Make sure to change these credentials in a production environment.
 
