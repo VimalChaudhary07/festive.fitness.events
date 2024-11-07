@@ -98,35 +98,35 @@ Rate limiting to prevent abuse.
 ---
 
 ## **📄 API Documentation**
-Events
+ Events
 Create Event
-POST /api/events
+  POST /api/events
 
-Get All Events
-GET /api/events
+ Get All Events
+  GET /api/events
 
-Delete Event
-DELETE /api/events/:id
+ Delete Event
+  DELETE /api/events/:id
 
-Messages
-Create Message
-POST /api/messages
+ Messages
+  Create Message
+   POST /api/messages
 
-Get All Messages
-GET /api/messages
+ Get All Messages
+  GET /api/messages
 
-Delete Message
-DELETE /api/messages/:id
+ Delete Message
+  DELETE /api/messages/:id
 
-Gallery
-Add Image to Gallery
-POST /api/gallery
+ Gallery
+  Add Image to Gallery
+   POST /api/gallery
 
-Get Gallery Images
-GET /api/gallery
+ Get Gallery Images
+  GET /api/gallery
 
-Delete Gallery Image
-DELETE /api/gallery/:id
+ Delete Gallery Image
+  DELETE /api/gallery/:id
 
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
