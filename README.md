@@ -1,103 +1,107 @@
-# 🎉 Festive Finesse Events
+#!/bin/bash
 
-**Festive Finesse Events** is a professional event management platform built with **React**, **TypeScript**, and **Node.js**. This full-stack application is designed to help event planners manage bookings, showcase their portfolios, and interact with clients effortlessly.
-
-![Festive Finesse Events](https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80)
-
----
-
-## ✨ Features
-
-- 🎨 **Modern, responsive UI** with dark theme
-- 🔐 **Secure admin dashboard** with authentication
-- 📸 **Dynamic event gallery** with filtering options
-- 💼 **Service packages** showcase
-- 📝 **Event booking system** with email notifications
-- 💬 **Contact form** with email integration
-- ⭐ **Client testimonials** section
-- 📱 **Mobile-first design**
-- 🔄 **Real-time updates** across the platform
-- 🗄️ **SQLite database** for data persistence
-
----
-
-## 🚀 Tech Stack
-
-### Frontend
-- **React 18**
-- **TypeScript**
-- **Tailwind CSS** for styling
-- **Framer Motion** for animations
-- **Lucide Icons** for icons
-- **React Router DOM** for routing
-- **React Hot Toast** for notifications
-
-### Backend
-- **Node.js** and **Express** for server
-- **Better SQLite3** for database
-- **TypeScript** for type safety
-
----
-
-## 📦 Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/festive-finesse-events.git
-   cd festive-finesse-events
-2. **Install dependencies:**:
-   ```bash
-   npm install
-3. **Start the development server**:
-   ```bash
-   npm run dev
-
----
-
-## 🏗️ Project Structure
-   src/
-├── components/        # React components
-├── lib/               # Utility libraries
-├── server/            # Backend API
-├── types/             # TypeScript types
-└── utils/             # Helper functions
-
----
-
-## **🔑 Admin Access**
-Default admin credentials for demo purposes:
-
-Email: admin@festive.finesse.events \n
-Password: FFE@admin2024
-Note: Make sure to change these credentials in a production environment.
-
-## **💡 Key Components**
-Frontend
-Hero Section: Dynamic landing page with event booking modal.
-Services: Displays event planning services offered.
-Gallery: Filterable portfolio showcasing previous events.
-Products: Displays available event packages and pricing.
-Testimonials: Client reviews and feedback.
-Contact: Integrated form to contact event planners.
-Backend
-API Endpoints: RESTful API for managing data (events, messages, gallery).
-Database: SQLite for storing event data, messages, and gallery images.
-Email Service: Notification system for bookings.
-Authentication: Secure admin access for managing bookings and gallery.
-📱 Responsive Design
-The application is optimized for different screen sizes:
-Desktop (1200px+)
-Laptop (1024px)
-Tablet (768px)
-Mobile (320px)
-🔒 Security Features
-Password hashing for secure storage.
-Protected admin routes to restrict access.
-Input validation to ensure data integrity.
-XSS and CSRF protection to prevent attacks.
-Rate limiting to prevent abuse.
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
+echo "# 🎉 Festive Finesse Events"
+echo ""
+echo "**Festive Finesse Events** is a professional event management platform built with **React**, **TypeScript**, and **Node.js**. This full-stack application is designed to help event planners manage bookings, showcase their portfolios, and interact with clients effortlessly."
+echo ""
+echo "![Festive Finesse Events](https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80)"
+echo ""
+echo "---"
+echo ""
+echo "## ✨ Features"
+echo ""
+echo "- 🎨 **Modern, responsive UI** with dark theme"
+echo "- 🔐 **Secure admin dashboard** with authentication"
+echo "- 📸 **Dynamic event gallery** with filtering options"
+echo "- 💼 **Service packages** showcase"
+echo "- 📝 **Event booking system** with email notifications"
+echo "- 💬 **Contact form** with email integration"
+echo "- ⭐ **Client testimonials** section"
+echo "- 📱 **Mobile-first design**"
+echo "- 🔄 **Real-time updates** across the platform"
+echo "- 🗄️ **SQLite database** for data persistence"
+echo ""
+echo "---"
+echo ""
+echo "## 🚀 Tech Stack"
+echo ""
+echo "### Frontend"
+echo "- **React 18**"
+echo "- **TypeScript**"
+echo "- **Tailwind CSS** for styling"
+echo "- **Framer Motion** for animations"
+echo "- **Lucide Icons** for icons"
+echo "- **React Router DOM** for routing"
+echo "- **React Hot Toast** for notifications"
+echo ""
+echo "### Backend"
+echo "- **Node.js** and **Express** for server"
+echo "- **Better SQLite3** for database"
+echo "- **TypeScript** for type safety"
+echo ""
+echo "---"
+echo ""
+echo "## 📦 Installation"
+echo ""
+echo "1. **Clone the repository**:"
+echo '   ```bash'
+echo '   git clone https://github.com/yourusername/festive-finesse-events.git'
+echo '   cd festive-finesse-events'
+echo "2. **Install dependencies:**"
+echo '   ```bash'
+echo '   npm install'
+echo "3. **Start the development server**:"
+echo '   ```bash'
+echo '   npm run dev'
+echo ""
+echo "---"
+echo ""
+echo "## 🏗️ Project Structure"
+echo "   src/"
+echo "├── components/        # React components"
+echo "├── lib/               # Utility libraries"
+echo "├── server/            # Backend API"
+echo "├── types/             # TypeScript types"
+echo "└── utils/             # Helper functions"
+echo ""
+echo "---"
+echo ""
+echo "## 🔑 Admin Access"
+echo "Default admin credentials for demo purposes:"
+echo ""
+echo "Email: admin@festive.finesse.events"
+echo "Password: FFE@admin2024"
+echo "Note: Make sure to change these credentials in a production environment."
+echo ""
+echo "## 💡 Key Components"
+echo ""
+echo "Frontend"
+echo "- Hero Section: Dynamic landing page with event booking modal."
+echo "- Services: Displays event planning services offered."
+echo "- Gallery: Filterable portfolio showcasing previous events."
+echo "- Products: Displays available event packages and pricing."
+echo "- Testimonials: Client reviews and feedback."
+echo "- Contact: Integrated form to contact event planners."
+echo ""
+echo "Backend"
+echo "- API Endpoints: RESTful API for managing data (events, messages, gallery)."
+echo "- Database: SQLite for storing event data, messages, and gallery images."
+echo "- Email Service: Notification system for bookings."
+echo "- Authentication: Secure admin access for managing bookings and gallery."
+echo ""
+echo "## 📱 Responsive Design"
+echo "The application is optimized for different screen sizes:"
+echo "- Desktop (1200px+)"
+echo "- Laptop (1024px)"
+echo "- Tablet (768px)"
+echo "- Mobile (320px)"
+echo ""
+echo "## 🔒 Security Features"
+echo "- Password hashing for secure storage."
+echo "- Protected admin routes to restrict access."
+echo "- Input validation to ensure data integrity."
+echo "- XSS and CSRF protection to prevent attacks."
+echo "- Rate limiting to prevent abuse."
+echo ""
+echo "## 📝 License"
+echo "This project is licensed under the MIT License - see the LICENSE file for details."
